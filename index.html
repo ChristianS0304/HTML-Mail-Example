@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Modern HTML Email Example</title>
+
+<style type="text/css">
+	body {
+		margin: 0;
+		background-color: #cccccc;
+	}
+	table {
+		border-spacing: 0;
+	}
+	td {
+		padding: 0;
+	}
+	img {
+		border: 0;
+	}
+	
+	.wrapper {
+		width: 100%;
+		table-layout: fixed;
+		background-color: #cccccc;
+		padding-bottom: 60px;
+	}
+
+	.main {
+		background-color: #ffffff;
+		margin: 0 auto;
+		width: 100%;
+		max-width: 600px;
+		border-spacing: 0;
+		font-family: sans-serif;
+		color: #171a1b;
+	}
+
+	.two-columns {
+		text-align: center;
+		font-size: 0;
+	}
+
+	.two-columns .column {
+		width: 100%;
+		max-width: 300px;
+		display: inline-block;
+		vertical-align: top;
+		text-align: center;
+	}
+
+	.three-columns {
+		text-align: center;
+		font-size: 0;
+		padding: 15px 0 25px;
+	}
+
+	.three-columns .column {
+		width: 100%;
+		max-width: 200px;
+		display: inline-block;
+		vertical-align: top;
+		text-align: center;
+	}
+
+	.three-columns .padding {
+		padding: 15px;
+	}
+
+	.three-columns .content {
+		font-size: 15px;
+		line-height: 20px;
+		padding: 0 5px;
+	}
+
+	.two-columns.last {
+		padding: 15px 0;
+	}
+
+	.two-columns .padding {
+		padding: 20px;
+	}
+
+	.two-columns .content {
+		font-size: 15px;
+		line-height: 20px;
+	}
+
+	.button {
+		background-color: white;
+		color: #171a1b;
+		text-decoration: none;
+		padding: 12px 20px;
+		border-radius: 5px;
+		font-weight: bold;
+	}
+
+	.button-dark {
+		background-color:  #171a1b;
+		color: white;
+		text-decoration: none;
+		padding: 12px 20px;
+		border-radius: 5px;
+		font-weight: bold;
+	}
+
+
+	.light-button {
+		background-color:  white;
+		color: #171a1b;
+		text-decoration: none;
+		padding: 12px 20px;
+		border-radius: 5px;
+		font-weight: bold;
+	}
+
+	#jumbo-header {
+		padding-top: 30px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-weight: bold;
+		font-size: 1.5em;
+		vertical-align: center;
+		text-align: center;
+		color: white;
+	}
+
+	.hero-info {
+		vertical-align: center;
+		text-align: center;
+		padding-bottom: 50px;
+	}
+
+	.hero.p {
+		font-size: 1em;
+	}
+
+	.columnfooter {
+		text-align: center;
+		width:100%;
+	}
+
+	.two-footer .columnfooter {
+		text-align: center;
+	}
+
+	.footer {
+		padding: 15px 0 20px 0;
+		text-align: center;
+		
+	}
+
+</style>
+</head>
+
+<body>
+
+<center class="wrapper">
+	<table class="main" width="100%">
+		<tr>
+			<td height="8" style="background-color: #171a1b;"></td>
+		</tr>
+
+		<tr>
+			<td>
+				<table width="100%">
+					<tr>
+						<td class="two-columns">
+							
+							<table class="column">
+								<tr>
+									<td style="padding: 0 62px 10px;">
+										<a href="https://ibb.co/mc3qTp8"><img src="https://i.ibb.co/jrSMftR/CS-LOGO-HTML-Email-06.png" alt="CS-LOGO-HTML-Email-06" border="0" width="180"></a>
+									</td>
+								</tr>
+							</table>
+
+							<table class="column">
+								<tr>
+									<td style="padding: 10px 72px;">
+										<a href="https://www.facebook.com/silvarchristian/" target="_blank" ><img src="https://i.ibb.co/G0Zmb35/black-facebook.png" alt="black-facebook" border="0" width="30"></a>
+										<a href="https://www.instagram.com/chris.the.artist/" target="_blank" ><img src="https://i.ibb.co/grsZ0tG/black-instagram.png" alt="black-instagram" border="0" width="30"></a>
+										<a href="https://www.linkedin.com/in/christian-silva-570b2814a/" target="_blank" ><img src="https://i.ibb.co/ZKkc4T7/black-linkedin.png" alt="black-linkedin" border="0" width="30"></a>
+										<a href="https://imgbb.com/" target="_blank" ><img src="https://i.ibb.co/KbdwgFt/black-twitter.png" alt="black-twitter" border="0" width="30"></a>
+										<a href="https://imgbb.com/" target="_blank" ><img src="https://i.ibb.co/YyWyVZb/black-youtube.png" alt="black-youtube" border="0" width="30"></a> 
+									</td>
+								</tr>
+							</table>
+
+						</td>
+					</tr>	
+
+
+				</table>
+			</td>
+		</tr>
+
+
+		<tr>
+			<td class="hero">
+			
+			</td>
+		</tr>
+		<tr>
+			<td class="hero-info" style="background:url(https://i.ibb.co/QQfsyXt/modern-html-05.png); background-size: 600px 300px; width: 100%; max-width: 600px;">
+				<p id="jumbo-header">Modern Responsive HTML Email</p>
+				<p style="line-height: 20px; font-size: .8em; padding: 0 25px 25px 25px; color: white;">This is a sample HTML Email design using HTML/CSS. My name is Christian Silva
+				and I'm a Graphic Designer with a BSc in Computer Science!</p>
+				<a href="https://aceofdesign.wordpress.com" target="_blank" class="light-button">Visit Website</a>
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				<table width="100%">
+					<tr>
+						<td class="three-columns">
+
+
+							<table class="column">
+								<tr>
+									<td class="padding">
+
+										<table class="content">
+											<tr>
+												<td>
+													<a href="https://ibb.co/mzHf1N7"><img src="https://i.ibb.co/5c5btKV/email.png" alt="email" border="0" width="130" style="max-width: 130px;"></a>
+												</td>
+											</tr>
+											<tr>
+												<td>
+													<p style="font-weight: bold; font-size: 17px;">Ecommerce</p>
+													<p>Responsive HTML Templates for your business or personal use.</p>
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+
+
+							<table class="column">
+								<tr>
+									<td class="padding">
+										<table class="content">
+											<tr>
+												<td>
+													<a href="https://ibb.co/XsMrcJx"><img src="https://i.ibb.co/QNt3ymv/settings.png" alt="settings" border="0" width="130" style="max-width: 130px;"></a>
+												</td>
+											</tr>
+											<tr>
+												<td>
+													<p style="font-weight: bold; font-size: 17px;">Web Design</p>
+													<p>Beautiful crafted webpages with effective User Experience and Interface.</p>
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+						
+						
+							<table class="column">
+								<tr>
+									<td class="padding">
+										<table class="content">
+											<tr>
+												<td>
+													<a href="https://ibb.co/P1BdLQL"><img src="https://i.ibb.co/p4CS7y7/home.png" alt="home" border="0" width="130" style="max-width: 130px;"></a>
+												</td>
+											</tr>
+											<tr>
+												<td>
+													<p style="font-weight: bold; font-size: 17px;">HTML Email</p>
+													<p>HTML templates and custom designs for any marketing project.</p>
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+
+
+					</td>
+				</table>
+			</td>
+		</tr>
+
+		<tr>
+			<td style="background-color: #26292b; color: #ffffff;">
+				<table width="100%">
+					<tr>
+						<td class="two-columns last">
+
+							<table class="column">
+								<tr>
+									<td class="padding">
+
+										<table class="content">
+											<tr>
+												<td>
+													<a href="https://ibb.co/z6CcQmc"><img src="https://i.ibb.co/1zBV70V/keyboard.jpg" alt="keyboard" border="0" width="260px" style="max-width: 260px;"></a>
+												</td>
+											</tr>
+										</table>
+
+									</td>
+								</tr>
+							</table>
+
+							<table class="column">
+								<tr>
+									<td class="padding">
+
+										<table class="content">
+											<tr>
+												<td>
+													<p style="font-weight: bold; font-size:18px;">
+													Create Custom Designs</p>
+													<p style=" padding-bottom: 16px;">Giving you more with experience and class</p>
+													<a href="https://aceofdesign.wordpress.com/" target="_blank" class="button">Read More</a>
+												</td>
+											</tr>
+										</table>
+
+									</td>
+								</tr>
+							</table>
+
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+
+
+		<tr>
+			<td style="padding: 15px 0 50px;">
+				<table width="100%">
+					<tr>
+						<td style="text-align: center; padding: 15px;">
+
+							<p style="font-size: 20px;font-weight: bold;">HMTL Email Template Designs</p>
+							<p style="line-height: 23px; font-size: 15px; padding: 5px 0 15px;">Wondering how to increase branding, marketing, customer service or sales? Our HTML Email Designs
+							are made with a focus, plan, and delivered with great client relationships. More than a design machine, someone who you'll trust and build a client relationship with. Design & More.</p>
+							<a href="#" class="button-dark">View Templates</a>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr>
+			<td style="background-color: #26292b; vertical-align: center; text-align: center;">
+				<table class="footer" width="100%">
+					<tr>
+						<td class="two-footer">
+
+							<table class="columnfooter">
+								<tr>
+									<td style="color:
+									white;">
+										<a href="https://ibb.co/ZGHgZ2w"><img src="https://i.ibb.co/Xjy5wYd/CS-LOGO-HTML-Email-07.png" alt="CS-LOGO-HTML-Email-07" border="0" width="180"></a>
+										<p style="padding: 10px">Modern HTML Email</p>
+									</td>
+								</tr>
+							</table>
+
+							<table class="columnfooter">
+								<tr>
+									<td style="color:
+									white;">
+											<a href="https://aceofdesign.wordpress.com" target="_blank" style="padding: 10px; text-decoration: none; color: #ffffff;">christiansilva0304@gmail.com</p>
+											<a href="https://www.facebook.com/silvarchristian/" target="_blank" ><img src="https://i.ibb.co/KND7G2C/white-facebook.png" alt="white-facebook" border="0" width="
+												30"></a>
+											<a href="https://www.instagram.com/chris.the.artist/" target="_blank" ><img src="https://i.ibb.co/tYwxBCy/white-instagram.png" alt="white-instagram" border="0" width="
+												30"></a>
+											<a href="https://www.linkedin.com/in/christian-silva-570b2814a/" target="_blank"><img src="https://i.ibb.co/dp8DCwm/white-linkedin.png" alt="white-linkedin" border="0" width="
+												30"></a>
+											<a href="https://imgbb.com/"><img src="https://i.ibb.co/ySNtTc2/white-twitter.png" alt="white-twitter" border="0" width="
+												30"></a>
+											<a href="https://imgbb.com/"><img src="https://i.ibb.co/ypCnBf1/white-youtube.png" alt="white-youtube" border="0" width="
+												30"></a>
+									</td>
+								</tr>
+							</table>
+							
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+
+
+	</table>
+</center>
+
+</body>
+</html>
